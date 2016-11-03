@@ -1,0 +1,15 @@
+w{
+  "name": "review-react",
+  "version": "1.0.0",
+  "description": "Review and rating widget built using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "review-react"
+  },
+  "author": "Andrew Kelly",
+  "license": "Apache-2.0"
+}
