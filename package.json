@@ -1,15 +1,34 @@
-w{
+{
   "name": "review-react",
   "version": "1.0.0",
   "description": "Review and rating widget built using React",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "dev": "node_modules\\.bin\\webpack-dev-server"
   },
   "repository": {
     "type": "git",
     "url": "review-react"
   },
   "author": "Andrew Kelly",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "browser-sync": "^2.17.5",
+    "browser-sync-webpack-plugin": "^1.1.3",
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "raw-loader": "^0.5.1",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "bootstrap": "^3.3.7",
+    "webpack": "^1.13.2"
+  }
 }
